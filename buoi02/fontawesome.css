@@ -1,0 +1,39 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+.box {
+   width: 600px;
+   height: 100px;
+   padding: 10px;
+   margin: 30px auto;
+   background-color: #d6e25e;
+   text-align: center;
+}
+
+a.fa-custom {
+   width: 100px;
+   height: 100px;
+   display: inline-block;
+   border-radius: 50%;
+
+}
+
+.normal {
+   background-color: #fff;
+}
+
+a.fa-custom>i {
+   font-size: 50px;
+   line-height: 100px;
+   color: #0010f0;
+}
+
+.hover {
+   background-color: #0089ed;
+}
+
+a.hover i {
+   color: #fff;
+}

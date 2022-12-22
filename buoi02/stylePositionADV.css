@@ -1,0 +1,100 @@
+
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .box-fixed {
+        width: 200px;
+        height: 100px;
+        text-align: center;
+        line-height: 100px;
+        background-color: #1cc521;
+        font-size: 25px;
+        color: #000;
+        font-weight: bold;
+        position: fixed; 
+        
+      }
+      .TL {
+        top: 0px;
+        left: 0px;
+        
+      }
+      .TC {
+        top: 0px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+      .TR {
+        top: 0px;
+        right: 0px;
+       
+      }
+      .RC {
+        right: 0px;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+      
+      .BR {
+        bottom: 0px;
+        right: 0px;
+       
+      }
+      .BC {
+        bottom: 0px;
+        left: 50%;
+       
+        transform: translateX(-50%);
+
+      }
+      .BL {
+        bottom: 0px;
+        left: 0px;
+       
+      }
+      .LC {
+      top: 50%;
+      left: 0px;
+      transform: translateY(-50%);
+       
+      }
+      .box-center {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+      }
+      .box-child {
+        width: 80px;
+        height: 60px;
+        text-align: center;
+        line-height: 60px;
+        background-color: #912828;
+        font-size: 20px;
+        color: #000;
+        font-weight: bold;
+        position: absolute;
+      }
+      .ctl {
+        top: -60px;
+        left: -80px;
+       
+     }
+     .ctr {
+      top: -60px;
+      right: -80px;
+     }
+     .cbr {
+      bottom: -60px;
+      right: -80px;
+     }
+     .cbl {
+      bottom: -60px;
+      left: -80px;
+     }
+
+
+
+      
+ 
+
